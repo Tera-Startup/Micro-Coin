@@ -1,5 +1,5 @@
 from replit import db
-
+print("WARNING : 1 PERSON = 1 ACCOUNT AND NOT MORE")
 pseudo = input("Enter your username > ")
 pswrd = input("Enter your password > ")
 

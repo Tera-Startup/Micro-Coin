@@ -1,13 +1,13 @@
 import time
 from replit import db
 
-ps = input("Enter the username of the account\nyou want to mine for > ")
-pswrd = input("Enter the password of the account\nyou want to mine for > ")
+ps = input("Enter the username of your account > ")
+pswrd = input("Enter the password of your account > ")
 wallet = "WAL_"+ps
 print("You have ", db[wallet], " MicroCoin(s)")
 
 if ("WAL_" + ps) in db:
-  if ("PAS_" + ps) == pswrd:
+  if db["PAS_" + ps] == pswrd:
     startTime = time.time()
     print("You get 2 MicroCoin per minute.")
     input("Press enter to stop mining > ")
