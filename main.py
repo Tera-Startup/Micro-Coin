@@ -5,7 +5,7 @@ my_secret2 = os.environ['execode']
 my_secret3 = os.environ['delAccount']
 from replit import db
 
-print("MicroCoin\nThe Simplest Crypocurrency")
+print("MicroCoin\n---------\nThe Simplest Crypto Currency")
 print("1 : Sign Up")
 print("2 : Mine")
 print("3 : Send MicroCoins To Someone")
