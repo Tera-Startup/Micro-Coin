@@ -1,4 +1,5 @@
 from replit import db
+import translate
 
 fromPs = input("Enter your username > ")
 fromPswrd = input("Enter your password > ")
@@ -10,7 +11,7 @@ amount = int(amounT)
 #total = amount + commission
 fromWallet = "WAL_"+fromPs
 toWallet = "WAL_"+toPs
-if db[fromPswrdDB] == fromPswrd:
+if db[fromPswrdDB] == translate.getTo(fromPswrd):
   if db[fromWallet] < amount:
     print("You don't have enough MicroCoins !")
     input("Press enter to continue > ")
