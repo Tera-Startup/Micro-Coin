@@ -11,3 +11,8 @@ def getTo(self):
 
 def getFrom(self):
   return self.translate(TABLEFROM)
+
+change = 0.001
+def toDollar(amount):
+  v = amount*change
+  return v
