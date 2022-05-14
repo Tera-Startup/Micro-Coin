@@ -1,4 +1,5 @@
 # MicroCoin 1.2 by Tera #
+
 """
 Copyright © Tera, Inc. 2022.
 This software is a creation of Gustave Dufresne Walter (a.k.a. Krayse)
